@@ -1,0 +1,61 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://cdn.images.express.co.uk/img/dynamic/4/750x445/973064.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+}
+header.jumbotron .container {
+  color: Red;
+  padding: 100px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #dbdac7;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #d9ffff;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://img.gq.com.tw/_rs/645/userfiles/sm/sm1024_images_A1/36028/2018050858416889.jpg);
+  height: 350px;
+  background-size: cover;
+}
+section#section_ask h2 {
+  margin-top: 20px;
+  padding: 0px 30px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 200px;
+  overflow: hidden;
+}
+
+section#section_video {
+  font-size: 50px;
+}
